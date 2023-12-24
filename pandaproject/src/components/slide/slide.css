@@ -1,0 +1,60 @@
+.carousel {
+  width: 800px;
+  height: 480px;
+}
+.box {
+  display: flex;
+  margin-top: 15px;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+}
+.carousel-item img {
+  height: 480px;
+  width: 100%;
+}
+
+.carousel-indicators button {
+  margin-right: 25px !important;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  display: none;
+}
+.carousel-control-prev-icon {
+  display: none;
+}
+.carousel-control-next-icon {
+  display: none;
+}
+.carousel-container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.carousel-indicators {
+  top: 485px;
+}
+.carousel-indicators [data-bs-target] {
+  background-color: gray;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+
+.background-0 {
+  background-color: rgb(243, 234, 222); /* 크림 색상으로 설정 */
+}
+.background-1 {
+  background-color: rgb(182, 101, 195);
+}
+.background-2 {
+  background-color: rgb(177, 56, 62);
+}
+.background-3 {
+  background-color: rgb(224, 222, 213);
+}
+
+/* 1번 background-color: rgb(243, 234, 222); */

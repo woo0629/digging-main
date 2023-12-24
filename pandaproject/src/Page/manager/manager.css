@@ -1,0 +1,17 @@
+.edit_button,
+.send_button {
+  margin: 3px;
+  padding: 5px;
+  color: white;
+  background-color: black;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.user_info {
+  background-color: black;
+  color: white;
+  text-align: left;
+  padding: 30px;
+  margin-bottom: 40px;
+}

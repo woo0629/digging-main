@@ -1,0 +1,152 @@
+.categoryContents-container {
+  display: grid;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 10px 20px;
+}
+.contentItem-searchBox-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0px;
+}
+.contentItem-searchBox {
+  border: 1px solid hsla(220, 9%, 46%, 0.3);
+  border-radius: 20px;
+  width: 255px;
+}
+.contentItem-searchBox input {
+  height: 36px;
+  margin-right: 0px;
+  margin-left: 20px;
+  padding-left: 15px;
+  width: 200px;
+  border: none;
+}
+.contentItem-searchBox input:focus {
+  outline: none;
+}
+.contentItem-searchButton-box {
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.262);
+}
+.contentItem-searchButton {
+  width: 25px;
+  height: 25px;
+}
+.contentItem-searchButton:hover {
+  color: rgb(0, 144, 249);
+}
+.contentItem-sort-options {
+  display: flex;
+  justify-content: end;
+  padding-right: 20px;
+}
+.contentItem-sort-options span {
+  font-size: 13px;
+  cursor: pointer;
+}
+.contentItem-sort-newData.clicked,
+.contentItem-sort-lowPrice.clicked,
+.contentItem-sort-highPrice.clicked {
+  font-weight: bold; /* 클릭된 옵션의 글자를 진하게 설정 */
+  color: #000; /* 클릭된 옵션의 글자 색상 변경 */
+}
+
+.contentItem-sort-newData {
+  margin-right: 5px;
+}
+.separator {
+  color: hsla(220, 9%, 46%, 0.3);
+}
+.contentItem-sort-lowPrice {
+  margin: 0px 5px 0px 5px;
+}
+.contentItem-sort-highPrice {
+  margin-left: 5px;
+}
+.categoryContents {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+.categoryContents-item {
+  height: 370px;
+  border-radius: 10px;
+  overflow: hidden; /* 내용이 넘칠 때 처리 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 그림자 효과 추가 */
+  transition: transform 0.3s ease-in-out; /* 호버 시 애니메이션 효과 */
+}
+
+.categoryContents-item:hover {
+  transform: translateY(-5px);
+}
+
+.categoryContents-item img {
+  width: 100%;
+  height: 270px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  object-fit: cover; /* 이미지 비율 유지 및 잘림 방지 */
+}
+
+.text-content {
+  padding: 10px 10px 0px;
+}
+
+.categoryContents h2 {
+  margin: 0px 0px 40px;
+  padding: 20px 0px 0px;
+}
+
+.categoryContents-card-title {
+  font-size: 16px;
+  margin-bottom: 3px;
+  white-space: normal;
+  line-height: 1.1;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.categoryContents-card-price {
+  font-size: 15px;
+  font-weight: bold;
+}
+.categoryContents-card-address {
+  padding-top: 5px;
+  font-size: 14px;
+}
+.write {
+  font-size: 25px;
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #dddddd;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.write:hover {
+  background-color: #bdbcbc;
+}
+
+@media (max-width: 960px) {
+  .categoryContents h2 {
+    margin: 0px 0px 20px;
+    padding: 0px 0px 0px;
+  }
+  .categoryContents-item {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .categoryContents-container {
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
