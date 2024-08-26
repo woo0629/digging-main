@@ -55,12 +55,12 @@ h4 {
 /* ///////////////////////// */
 .boardDetail-handleBox {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .boardDetail-edit {
   display: flex;
   width: 40px;
-  justify-content: end;
+  justify-content: flex-end;
   cursor: pointer;
 }
 .boardDetail-edit span:hover,
@@ -70,7 +70,7 @@ h4 {
 .boardDetail-delete {
   display: flex;
   width: 40px;
-  justify-content: end;
+  justify-content: flex-end;
   cursor: pointer;
 }
 .boardDetail-handleBox span {

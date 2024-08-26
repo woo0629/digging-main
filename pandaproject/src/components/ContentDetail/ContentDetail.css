@@ -61,7 +61,7 @@
 }
 .comment_submitButton-box {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   padding: 20px 0px;
 
   width: 100%;
@@ -96,7 +96,7 @@
 
 .button_container {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   margin-top: 20px;
 }
 
@@ -165,7 +165,7 @@
 .button_wrap {
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: flex-end;
   margin-bottom: 50px;
 }
 .comment_wrap button {

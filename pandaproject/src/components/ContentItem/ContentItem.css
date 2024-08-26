@@ -41,7 +41,7 @@
 }
 .contentItem-sort-options {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   padding-right: 20px;
 }
 .contentItem-sort-options span {
