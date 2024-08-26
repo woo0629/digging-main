@@ -9,7 +9,7 @@
       "src": "pandaproject/package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "/pandaproject/build"
+        "distDir": "pandaproject/build"
       }
     }
   ],
